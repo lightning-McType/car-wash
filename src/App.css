@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+.category-dropdown {
+  width: 50%;
+  height: 40px;
+  border-radius: 5px;
+  display: block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.date-picker {
+  width: 50%;
+  height: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.category-date {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.bill-form {
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit-button {
+  position: absolute;
+  top: 300px;
+  right: 30px;
+}
+
+.bills-table {
+  margin-top: 10px;
+}
+
+.bills-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.showbills-category-dropdown {
+  width: 25%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
 }
